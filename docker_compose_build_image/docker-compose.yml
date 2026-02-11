@@ -10,7 +10,7 @@ services:
         - APP_VERSION=2.0
     environment:
       - DEBUG=true
-    image: anshuldevops/python_web:2.1
+    image: sameer_patil/python_web:2.1
 
   node_service:
     build:
